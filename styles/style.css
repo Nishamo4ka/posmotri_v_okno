@@ -243,15 +243,6 @@ fieldset{
 .search-form__label:last-of-type {
   margin: 0px 0px 0px 5px;
 }
-/*
-.search-form__checkbox-list .search-form__label {
-  padding-left: 4px;
-}
-
-.search-form__checkbox-list:not(:first-child) .search-form__label {
-  margin: 0px 0px 0px 5px;
-}
-*/
 .search-form__label:hover .search-form__label-text {
   text-decoration: underline;
 }
@@ -299,12 +290,7 @@ input::placeholder {
   color: rgba(255, 255, 255, 0.7);
   appearance: none;
 }
-/*
-.search-form__label:has(.search-form__textfield) {
-  border-top: 1px solid #fff;
-  border-bottom: 1px solid #fff;
-}
-*/
+
 .search-form__label:has(.search-form__textfield:active) {
   border: 1px solid white;
   outline: none;
